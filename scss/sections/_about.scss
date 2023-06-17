@@ -1,0 +1,42 @@
+.about{
+    background: $primary-color;
+    color: white;
+    padding: $section-padding;
+    p{
+        line-height: 2;
+        color: rgb(255, 255, 255);
+        max-width: 400px;
+    }
+    .btn{
+        background: transparent;
+        margin-top: 2rem;
+        padding: $btn-padding;
+        border: 1px solid white;
+    }
+    .heading{
+        font-size: $heading-size;
+        font-weight: $heading-weight;
+        margin-bottom: 3rem;
+    }
+    .skills{
+        @media only screen and (max-width: 600px) {
+            margin-top: 3rem;
+        }
+        .all-skills{
+            font-size: 1.2rem;
+            font-weight: 600;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #ffffff;
+        }    
+        .skillsets{
+            margin-top: 3rem;
+        }
+        .skill{
+            margin-top: 2rem;
+            .progress{
+                border: .5px solid white;
+                background: red($color: #000000);
+            }
+        }
+    }
+}

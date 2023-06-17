@@ -1,0 +1,23 @@
+.navbar{
+    background: white;
+    .navbar-brand{
+        font-weight: 600;
+    }
+    .navbar-nav{
+        background: white
+        ;
+        .nav-link{
+            font-weight: 400;
+            font-size: 1rem;
+            color: black;
+            margin-right: 1rem;
+            &.active{
+                color: $primary-color;
+                font-weight: 500;
+            }
+            &:hover{
+                color: $primary-color;
+            }
+        } 
+    }
+}

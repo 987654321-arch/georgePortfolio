@@ -1,0 +1,45 @@
+.services{
+    padding: $section-padding;
+    .heading{
+        font-size: $heading-size;
+        font-weight: $heading-weight;
+        margin-bottom: 3rem;
+    }
+    .side-one{
+        p{
+            line-height: 2;
+            max-width: 400px;
+        }
+        .get{
+            font-weight: bold;
+            text-transform: capitalize;
+            margin-top: 2rem;
+            color: $primary-color;
+        }
+        .btn{
+            background: $primary-color;
+               padding: $btn-padding;
+               margin-top: 1.5rem;
+        }
+    }
+    .icons-side{
+        @media only screen and (max-width: 600px) {
+            margin-top: 3rem;
+        }
+   
+    .tile{
+        padding: 2.5rem;
+        background: #dbdbdb;
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        img{
+            width: 50%;
+        }
+        p{
+            margin-top: 1rem;
+            color: $primary-color;
+            font-weight: 500;
+        }
+    }
+}
+}

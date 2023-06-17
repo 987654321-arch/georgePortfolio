@@ -1,0 +1,238 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background: white;
+}
+.navbar .navbar-brand {
+  font-weight: 600;
+}
+.navbar .navbar-nav {
+  background: white;
+}
+.navbar .navbar-nav .nav-link {
+  font-weight: 400;
+  font-size: 1rem;
+  color: black;
+  margin-right: 1rem;
+}
+.navbar .navbar-nav .nav-link.active {
+  color: #6344c6;
+  font-weight: 500;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #6344c6;
+}
+
+.hero p {
+  line-height: 2;
+}
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+.hero h1 span {
+  color: #6344c6;
+}
+.hero .desc {
+  font-weight: bold;
+  color: #6344c6;
+}
+.hero .btn-class {
+  margin-top: 1rem;
+}
+.hero .btn-class a {
+  background: #6344c6;
+  padding: 1.2rem;
+}
+.hero img {
+  transition: 1s ease-in-out;
+  border-radius: 10px;
+}
+
+.about {
+  background: #6344c6;
+  color: white;
+  padding: 6rem 0;
+}
+.about p {
+  line-height: 2;
+  color: rgb(255, 255, 255);
+  max-width: 400px;
+}
+.about .btn {
+  background: transparent;
+  margin-top: 2rem;
+  padding: 1.2rem;
+  border: 1px solid white;
+}
+.about .heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+@media only screen and (max-width: 600px) {
+  .about .skills {
+    margin-top: 3rem;
+  }
+}
+.about .skills .all-skills {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ffffff;
+}
+.about .skills .skillsets {
+  margin-top: 3rem;
+}
+.about .skills .skill {
+  margin-top: 2rem;
+}
+.about .skills .skill .progress {
+  border: 0.5px solid white;
+  background: 0;
+}
+
+.services {
+  padding: 6rem 0;
+}
+.services .heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+.services .side-one p {
+  line-height: 2;
+  max-width: 400px;
+}
+.services .side-one .get {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 2rem;
+  color: #6344c6;
+}
+.services .side-one .btn {
+  background: #6344c6;
+  padding: 1.2rem;
+  margin-top: 1.5rem;
+}
+@media only screen and (max-width: 600px) {
+  .services .icons-side {
+    margin-top: 3rem;
+  }
+}
+.services .icons-side .tile {
+  padding: 2.5rem;
+  background: #dbdbdb;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+.services .icons-side .tile img {
+  width: 50%;
+}
+.services .icons-side .tile p {
+  margin-top: 1rem;
+  color: #6344c6;
+  font-weight: 500;
+}
+
+.portfolio {
+  padding: 6rem 0;
+  background: #6344c6;
+  color: white;
+}
+.portfolio .heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+.portfolio .project {
+  margin-bottom: 3rem;
+}
+.portfolio .project .img-container {
+  height: 70vh;
+  background-color: white;
+  border-radius: 8px;
+}
+.portfolio .project .img-container img {
+  transition: 1s ease-in-out;
+}
+.portfolio .project .img-container img:hover {
+  transform: scale(1.1);
+}
+.portfolio .project h1 {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.portfolio .project a {
+  color: white;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.testimonials {
+  padding: 6rem 0;
+}
+.testimonials .heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+.testimonials .tile {
+  display: flex;
+}
+.testimonials .tile .img-area {
+  max-width: 100px;
+  max-height: 150px;
+  margin-right: 2rem;
+}
+.testimonials .tile .name {
+  color: #6344c6;
+  font-weight: 700;
+}
+
+.contact {
+  padding: 6rem 0;
+  background: #6344c6;
+  color: white;
+}
+.contact .heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+.contact .colored {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.contact .info {
+  width: 70%;
+  border-bottom: 1px solid #ffffff;
+  padding: 1rem 0;
+}
+.contact form .form-group {
+  margin-bottom: 3rem;
+}
+.contact form .form-group label {
+  margin-bottom: 2rem;
+}
+.contact form .form-group input {
+  padding: 1rem;
+}
+.contact form .btn {
+  background: transparent;
+  margin-top: 2rem;
+  padding: 1.2rem;
+  border: 1px solid white;
+}
+
+.footer p {
+  color: #6344c6;
+  font-weight: 600;
+  padding-top: 1rem;
+}/*# sourceMappingURL=style.css.map */

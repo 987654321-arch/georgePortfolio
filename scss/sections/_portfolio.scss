@@ -1,0 +1,35 @@
+.portfolio{
+    padding: $section-padding;
+    background: $primary-color;
+    color: white;
+    .heading{
+        font-size: $heading-size;
+        font-weight: $heading-weight;
+        margin-bottom: 4rem;
+    }
+    .project{ 
+        margin-bottom: 3rem;
+        .img-container{
+            height: 70vh;
+            background-color: white;
+            border-radius: 8px;
+            img{
+                transition: 1s ease-in-out;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        h1{
+            text-transform: capitalize;
+            font-size: 1.5rem;
+            margin-top: 2rem;
+        }
+        a{
+            color: white;
+            text-transform: capitalize;
+            font-size: 1rem;
+        }
+        
+    }
+}

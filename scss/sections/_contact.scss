@@ -1,0 +1,36 @@
+.contact{
+    padding: $section-padding;
+    background: $primary-color;
+    color: white;
+    .heading{
+        font-size: $heading-size;
+        font-weight: $heading-weight;
+        margin-bottom: 4rem;
+    }
+    .colored{
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    .info{
+        width: 70%;
+        border-bottom: 1px solid #ffffff;
+        padding: 1rem 0;
+    }
+    form{
+        .form-group{
+            margin-bottom: 3rem;
+            label{
+                margin-bottom: 2rem;
+            }
+            input{
+                padding: 1rem;
+            }
+        }
+        .btn{
+            background: transparent;
+            margin-top: 2rem;
+            padding: $btn-padding;
+            border: 1px solid white;
+        }
+    }
+}
